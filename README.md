@@ -1,1 +1,1 @@
-# Steven-Prata
+# Politech - lychshe vseh!
