@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int f_far (int);  
+int main()
+ {
+	cout << "Please enter a Celsius value: ";
+	int cel;
+	cin >> cel;
+	cout << "\n";
+	int far=f_far (cel);
+	cout << cel << " degrees Celsius is "<< far << " degrees Fahrenheit ";
+	return 0;
+ }
+
+int f_far (int n)
+ {
+     return n*1.8+32;
+ }
