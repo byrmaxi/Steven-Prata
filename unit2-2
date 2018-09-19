@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int f_yard (int);  
+int main()
+ {
+	cout << "Введите расстояние в фарлонгах\n";
+	int farl;
+	cin >> farl;
+	int yard=f_yard (farl);
+	cout << farl << " (расстояние в фарлонгах)= "<< yard << " (расстояние в ярдах)";
+	return 0;
+ }
+
+int f_yard (int n)
+ {
+     return n*220;
+ }
