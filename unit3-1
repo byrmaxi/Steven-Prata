@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{ 
+    const float k_fut=0.08;
+    cout << "Введите ваш рост в дюймах: __ \b\b\b";
+    int duim;
+    float fut;
+    cin >> duim;
+    fut= duim*k_fut;
+    cout << "Ваш рост в дюймах " << duim << " = " << fut << " в футах.";
+	
+}
