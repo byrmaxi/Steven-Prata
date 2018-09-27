@@ -10,7 +10,7 @@ int main()
      cin >> rost_fut;
      cout << "и в дюймах: __ \b\b\b";
      cin >> duim;
-     cout << endl<< "Введите ваш вес в футах: __ \b\b\b";
+     cout << "Введите ваш вес в футах: __ \b\b\b";
      cin >> ves_fut;
      float metr, kilo,indx,metrKV;
      metr=rost_fut*k_metr;
