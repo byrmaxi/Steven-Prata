@@ -12,8 +12,7 @@ int main()
      cin >> duim;
      cout << endl<< "Введите ваш вес в футах: __ \b\b\b";
      cin >> ves_fut;
-     float metr, kilo,indx;
-     double metrKV;
+     float metr, kilo,indx,metrKV;
      metr=rost_fut*k_metr;
      kilo=ves_fut*k_kilo;
      metrKV=sqrt(metr);
@@ -22,4 +21,5 @@ int main()
      return 0;
      
  }
+	
 	
