@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+ {
+     const float k_metr=0.0254, k_kilo=2.2, x=2;
+     int rost_fut, duim, ves_fut;
+     cout << "Введете рост в футах: __ \b\b\b ";
+     cin >> rost_fut;
+     cout << "и в дюймах: __ \b\b\b";
+     cin >> duim;
+     cout << endl<< "Введите ваш вес в футах: __ \b\b\b";
+     cin >> ves_fut;
+     float metr, kilo,indx;
+     double metrKV;
+     metr=rost_fut*k_metr;
+     kilo=ves_fut*k_kilo;
+     metrKV=sqrt(metr);
+     indx=kilo/metrKV;
+     cout << "Индекс массы вашего тела = " << indx;
+     return 0;
+     
+ }
+	
