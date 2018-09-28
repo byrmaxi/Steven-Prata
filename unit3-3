@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+ {
+     cout << "Сколько миль вы проехали? - __ \b\b\b";
+     float kil,gal,rashod;
+     cin >> kil;
+     cout << "Сколько галонов бензина вы потратили? - __ \b\b\b";
+     cin >> gal;
+     rashod=gal/kil;
+     cout << rashod << " - такое количестов галонов потребуется, чтобы проехать одну милю"; 
+     
+ }
