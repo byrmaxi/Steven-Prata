@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+struct CandyBar
+{
+    char proizv [20];
+    float ves;
+    int kalor;
+};
+
+int main()
+{
+    CandyBar snack = {"Mocha Munch", 2.3, 350};
+    cout << snack.proizv << endl << snack.ves << endl << snack.kalor;
+
+    return 0;
+}
