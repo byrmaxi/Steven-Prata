@@ -23,6 +23,8 @@ int main()
     cin >> snack->kalor;
     
     cout << "Конфета-батнчик " << snack->proizv <<" : вес " << snack->ves << ", калории= " << snack->kalor;
+    
+    delete snack;
 
     return 0;
 }
