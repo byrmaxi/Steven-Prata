@@ -1,0 +1,29 @@
+
+#include <iostream>
+
+using namespace std;
+
+struct st_pizza
+{
+    char kompani [20];
+    int diametr;
+    float ves;
+};
+
+int main()
+{
+    st_pizza pizza;
+    cout << "Введите название пиццы: ";
+    cin.getline(pizza.kompani, 20);
+    
+    cout << "Введите димаетр пиццы: ";
+    cin >> pizza.diametr;
+    
+    cout << "Введите вес пиццы: ";
+    cin >> pizza.ves;
+    
+    cout << "Пицца " << pizza.kompani << ": диметр= " 
+         << pizza.diametr << ", вес= " << pizza.ves; 
+
+    return 0;
+}
