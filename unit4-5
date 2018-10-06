@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+struct CandyBar
+{
+    char proizv [20];
+    float ves;
+    int kalor;
+};
+
+int main()
+{
+    CandyBar *snack = new CandyBar;
+    
+    cout << "Введите название конфеты-батончика: ";
+    cin.getline (snack->proizv,20);
+    
+    cout << "Введите вес пиццы: ";
+    cin >> snack->ves;
+    
+    cout << "Введите калории: ";
+    cin >> snack->kalor;
+    
+    cout << "Конфета-батнчик " << snack->proizv <<" : вес " << snack->ves << ", калории= " << snack->kalor;
+
+    return 0;
+}
