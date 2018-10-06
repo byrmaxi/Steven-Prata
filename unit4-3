@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+struct CandyBar 
+{
+    char proizv [20];
+    float ves;
+    int kalor;
+};
+
+int main()
+{
+  CandyBar mas[3]= { {"Snik", 3, 100}, {"Roshen", 2.1, 50}, {"Milk", 3.7, 75} };
+  
+  cout << mas[0].proizv << "  "  <<mas[0].ves << "  " << mas[0].kalor << endl;
+  cout << mas[1].proizv << "  "  <<mas[1].ves << "  " << mas[1].kalor << endl;
+  cout << mas[2].proizv << "  "  <<mas[2].ves << "  " << mas[2].kalor << endl;
+
+    return 0;
+}
